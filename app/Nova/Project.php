@@ -14,6 +14,7 @@ use Laravel\Nova\Fields\HasMany;
 use Laravel\Nova\Fields\Number;
 use Laravel\Nova\Fields\Select;
 use Laravel\Nova\Fields\Text;
+use Laravel\Nova\Fields\Trix;
 use Pdmfc\NovaCards\Info;
 use SLASH2NL\NovaBackButton\NovaBackButton;
 
@@ -83,6 +84,9 @@ class Project extends Resource
                         ]),
 
                     Text::make('Status')->exceptOnForms(),
+                ],
+                'Client Info' => [
+                    Trix::make('clients')->alwaysShow(),
                 ],
                 'Project Timeline' => [
                     Date::make('Start date', 'start_at')
