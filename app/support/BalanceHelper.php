@@ -20,11 +20,6 @@ class BalanceHelper
         return Expense::sum('amount');
     }
 
-    public function __construct()
-    {
-
-    }
-
     public function getTotalIncome()
     {
         return ($this->totalRevenue() - $this->totalExpenses());
@@ -37,6 +32,6 @@ class BalanceHelper
 
     public function getBalance()
     {
-        $this->getTotalIncome() / User::count();
+        return ($this->getTotalIncome() - $this->getPercentage()) / User::count();
     }
 }
