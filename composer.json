@@ -27,6 +27,7 @@
         "laravel/nova": "*",
         "laravel/sanctum": "^2.11",
         "laravel/tinker": "^2.5",
+        "laravelwebdev/responsive": "^1.0",
         "pdmfc/nova-info-card": "^1.0",
         "slash2nl/nova-back-button": "^1.0",
         "spatie/laravel-activitylog": "^3.17"
