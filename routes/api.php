@@ -75,7 +75,7 @@ Route::get('/covid', function () {
             ],
             'deaths'=>[
                 'total'=>$totalCases[1],
-                'reported_yesterday'=>$reportedYesterday[1]
+                'reported_yesterday'=>$reportedYesterday[1] ?? 'no data'
             ],
         ],
         'intern'=>[
