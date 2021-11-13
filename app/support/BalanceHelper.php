@@ -10,6 +10,13 @@ class BalanceHelper
 {
     const PERCENTAGE = 0.1;
 
+    public static function getAllowedUser()
+    {
+        return [
+            'william.galas@nuwang.tech',
+        ];
+    }
+
     public function totalRevenue()
     {
         return Revenue::sum('amount');

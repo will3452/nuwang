@@ -14,7 +14,6 @@ use SLASH2NL\NovaBackButton\NovaBackButton;
 
 class User extends Resource
 {
-
     public static $group = "Account Management";
     public static function label()
     {
@@ -94,7 +93,11 @@ class User extends Resource
                 'Balance' => [
                     Text::make('Balance', function () {
                         return (new BalanceHelper())->getBalance();
-                    })->exceptOnForms(),
+                    })
+                    ->canSee(function () {
+                        return in_array(auth()->user()->email, BalanceHelper::getAllowedUser());
+                    })
+                    ->exceptOnForms(),
                 ],
             ])->withToolbar(),
 
