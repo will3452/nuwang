@@ -31,10 +31,10 @@
                         <a href="#wedo" class="nav-link">what we do</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link">contact us</a>
+                        <a href="#project" class="nav-link">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#project" class="nav-link">Services</a>
+                        <a href="#contact" class="nav-link">contact us</a>
                     </li>
                 </ul>
                 <div class="hamburger">
