@@ -109,7 +109,7 @@
                 <div class="footer-body">
                     <h1>contact us</h1>
                     <div class="contact-cont" style="font-size:20px;">
-                      <a href="tel:09121808887">+639121808887</a> | <a href="https://m.me/galas.william.19">Messenger</a>
+                      <a href="tel:09121808887" style="color:white" >+639121808887</a> | <a  style="color:white" href="https://m.me/galas.william.19">Messenger</a>
                     </div>
                     <div class="contact-address">
                         <p>SAN ROQUE , TARLAC, TARLAC - PH</p>
