@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Laravel\Nova\Nova;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +13,4 @@ use Laravel\Nova\Nova;
 |
  */
 
-Route::redirect('/', Nova::path());
+ Route::view('/', 'welcome');
