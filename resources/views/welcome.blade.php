@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css?v=1">
+    <meta name="description" content="Establish Your Cybernated Desire">
     <title>Nuwang</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     <script
@@ -46,8 +47,8 @@
             <section class="container-body body-cont1">
                 <div class="container-div container-body1">
                     <div class="center-content">
-                        <h1>achieve your digital ambitions.</h1>
-                        <span>Providing the best software development service to startups,</span><br>
+                        <h1>Establish Your Cybernated Desire </h1>
+                        <span>Here we provide the core needs for amateurs.</span><br>
                         <a target="_blank" href="https://forms.gle/DUNa7tUpDnQAaph67" id="btn-head" style="display:inline-block">tell us what you need</a>
                     </div>
                 </div>
@@ -57,7 +58,7 @@
                     <div class="center-content2">
                         <h1>what we do</h1>
                         <div class="cont2-cont">
-                            <p>Nuwang uses a holistic approach to your IT and software needs. We provide you with an end-to-end service delivery – from ideation, to launching, to operating and maintaining your production servers and software – on a 24x7 basis</p>
+                            <p>Comprehensive technique is what Nuwang’s expertise for your computer demand. Here we offer uninterrupted flow of service — from visualization, inventory to producing and seamless support of your live servers and its software, around the clock.</p>
                         </div>
                     </div>
                 </div>
@@ -70,7 +71,7 @@
                         </div>
                         <div class="body-cont3-3">
                             <h1>Web Application Development</h1>
-                            <span>We produce award-winning mobile-responsive websites with multi-browser compatibility. Our top designers craft your websites in line with your business branding while our web developers build functional, scalable, secure, and maintainable code.</span>
+                            <span>Nuwang brings out world-renowned mobile-adaptive website open for any windows. The best of our designers highlights your brand building and our web developers makes portable, serviceable, safe, secure and program consistency.</span>
                         </div>
                     </div>
 
@@ -80,13 +81,13 @@
                         </div>
                         <div class="body-cont3-3">
                             <h1>Mobile Application Development</h1>
-                            <span>Our mobile teams adhere to Google’s and Apple’s UI/UX coding standards, offering consults and solutions to ensure successful app launches.</span>
+                            <span>In coherence, we ensure that our mobile programmers always reach Google’s and Apple’s level of UI/UX coding which provides effortless support and solutions, guaranteeing unique and effective app launches.</span>
                         </div>
                     </div>
                     <div class="center-content3" id="show-this">
                         <div class="body-cont3-3">
                             <h1>Mobile Application Development</h1>
-                            <span>Our mobile teams adhere to Google’s and Apple’s UI/UX coding standards, offering consults and solutions to ensure successful app launches.</span>
+                            <span>In coherence, we ensure that our mobile programmers always reach Google’s and Apple’s level of UI/UX coding which provides effortless support and solutions, guaranteeing unique and effective app launches.</span>
                         </div>
                         <div class="body-cont3-3">
                             <img src="./images/img2.png" alt="">
@@ -121,6 +122,20 @@
             </footer>
         </main>
     </div>
+
+    <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/61ead2d69bd1f31184d89bf3/1fpukf6en';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
 
     <script>
          const hamburger = document.querySelector(".hamburger");
